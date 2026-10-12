@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/temanekrasov/ontologies/2026/9/programming-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/temanekrasov/ontologies/2026/9/programming-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/temanekrasov/ontologies/2026/9/programming-ontology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>touch a new technology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#backend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#frontend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#support_db"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_language"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#angular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#css"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#docker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#html"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jakartaee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#js"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kuber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mongodb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mysql"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nginx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oracle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#postgres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rails"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#react"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#redis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ruby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vue"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#backend"/>
+        <Class IRI="#language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frontend"/>
+        <Class IRI="#language"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#angular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#chi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#frontend"/>
+        <NamedIndividual IRI="#css"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#infra"/>
+        <NamedIndividual IRI="#docker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#backend"/>
+        <NamedIndividual IRI="#go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#frontend"/>
+        <NamedIndividual IRI="#html"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#jakartaee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#backend"/>
+        <NamedIndividual IRI="#java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#frontend"/>
+        <NamedIndividual IRI="#js"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#infra"/>
+        <NamedIndividual IRI="#kuber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#subd"/>
+        <NamedIndividual IRI="#mongodb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#subd"/>
+        <NamedIndividual IRI="#mysql"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#infra"/>
+        <NamedIndividual IRI="#nginx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#subd"/>
+        <NamedIndividual IRI="#oracle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#subd"/>
+        <NamedIndividual IRI="#postgres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#rails"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#react"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#subd"/>
+        <NamedIndividual IRI="#redis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#backend"/>
+        <NamedIndividual IRI="#ruby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#spring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#framework"/>
+        <NamedIndividual IRI="#vue"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#angular"/>
+        <NamedIndividual IRI="#js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#chi"/>
+        <NamedIndividual IRI="#go"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#support_db"/>
+        <NamedIndividual IRI="#gin"/>
+        <NamedIndividual IRI="#postgres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#gin"/>
+        <NamedIndividual IRI="#go"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#jakartaee"/>
+        <NamedIndividual IRI="#java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#rails"/>
+        <NamedIndividual IRI="#ruby"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#react"/>
+        <NamedIndividual IRI="#js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#support_db"/>
+        <NamedIndividual IRI="#spring"/>
+        <NamedIndividual IRI="#mysql"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#support_db"/>
+        <NamedIndividual IRI="#spring"/>
+        <NamedIndividual IRI="#postgres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#spring"/>
+        <NamedIndividual IRI="#java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_language"/>
+        <NamedIndividual IRI="#vue"/>
+        <NamedIndividual IRI="#js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#support_db"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#support_db"/>
+            <Class IRI="#framework"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_language"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses_language"/>
+            <Class IRI="#framework"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#support_db"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#support_db"/>
+            <Class IRI="#subd"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_language"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses_language"/>
+            <Class IRI="#language"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
